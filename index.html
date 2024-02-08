@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<head>
+    <title>Curlistic Jewellery</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+<div class="container">
+    
+    <div class="header">
+        <img src="./images/Curlistic logo.jpg" alt="Curlistic Logo" class="logo">
+        <h1 class="slogan">Discover Your Unique Style</h1>
+    </div>
+    <div class="product-card">
+        <div class="row">
+            <div class="col-md-6 product-image">
+                <img src="./images/necklace.jpg" alt="Product 1">
+            </div>
+            <div class="col-md-6 product-info">
+                <h2 class="product-title">Diamond plated Necklace</h2>
+                <p class="product-price">$999.99</p>
+                <p class="product-description">Elegant Diamond plated necklace with intricate design. Perfect for formal occasions or everyday wear.</p>
+                <div class="product-variation">
+                    <span class="product-size">Size: Adjustable</span>
+                    <span class="product-stock">In Stock</span>
+                </div>
+                <button class="btn btn-add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Product 2 -->
+    <div class="product-card">
+        <div class="row">
+            <div class="col-md-6 product-image">
+                <img src="./images/earring.jpg" alt="Product 2">
+            </div>
+            <div class="col-md-6 product-info">
+                <h2 class="product-title">Diamond Hoop Earrings</h2>
+                <p class="product-price">$499.99</p>
+                <p class="product-description">Classic Diamond hoop earrings crafted with high-quality materials. Suitable for all occasions.</p>
+                <div class="product-variation">
+                    <span class="product-size">Size: One Size</span>
+                    <span class="product-stock">In Stock</span>
+                </div>
+                <button class="btn btn-add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Product 3 -->
+    <div class="product-card">
+        <div class="row">
+            <div class="col-md-6 product-image">
+                <img src="./images/bracelet.jpg" alt="Product 3">
+            </div>
+            <div class="col-md-6 product-info">
+                <h2 class="product-title">Rose Gold Bracelet</h2>
+                <p class="product-price">$79.99</p>
+                <p class="product-description">Stunning rose gold bracelet with a minimalist design. Perfect gift for someone special.</p>
+                <div class="product-variation">
+                    <span class="product-size">Size: Medium, Large</span>
+                    <span class="product-stock">In Stock</span>
+                </div>
+                <button class="btn btn-add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="cart-icon" onclick="toggleCart()">
+    <img src="./images/shopping-cart-icon.jpg" alt="Cart Icon" width="40" height="40">
+</div>
+
+<!-- Cart Section -->
+<div class="cart" id="cart">
+    <h2>Cart</h2>
+    <div id="cart-items"></div>
+</div>
+</div>
+
+<script src="./script.js">
+</script>
+</body>
+</html>
